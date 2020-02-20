@@ -299,7 +299,9 @@ class Graficos:
 
 
 class Genetico:
-    def genetico(func, C0, csv, cetes, ndias, model_close, l_vec, n_vec, iteraciones, C, rf, nombre):
+    def genetico(func, C0, csv,
+/
+cetes, ndias, model_close, l_vec, n_vec, iteraciones, C, rf, nombre):
         import numpy as np
         from time import time
         import pickle
